@@ -16,7 +16,7 @@ To run this project on your local machine, follow these steps:
 2. **Install dependencies:**
 
    ```bash
-   cd TodoApi
+   cd Task-Management
    npm install
    ```
 
@@ -26,7 +26,7 @@ To run this project on your local machine, follow these steps:
 
    ```plaintext
    PORT=8000
-   MONGO_URI="mongodb://localhost:todoapi"
+   MONGO_URI="mongodb://localhost:TaskManagement"
    JWT_SECRET=secretkey
    ```
 
@@ -42,7 +42,7 @@ To run this project on your local machine, follow these steps:
 
 ### Authentication
 
-#### Signup
+#### Sign Up
 
 - **Endpoint:** `POST /signup`
 
@@ -71,7 +71,7 @@ To run this project on your local machine, follow these steps:
   }
   ```
 
-#### Signin
+#### Sign In
 
 - **Endpoint:** `POST /signin`
 
@@ -111,7 +111,7 @@ To run this project on your local machine, follow these steps:
   {
     "taskName": "Task 1",
     "taskDescription": "Do something",
-    "taskStatus": "pending"
+    "taskStatus": "in progress"
   }
   ```
 
@@ -122,7 +122,7 @@ To run this project on your local machine, follow these steps:
     "_id": "6158c8230a5f6ecb12345679",
     "taskName": "Task 1",
     "taskDescription": "Do something",
-    "taskStatus": "pending",
+    "taskStatus": "in progress",
     "createdAt": "2023-04-22T10:55:50.177Z",
     "updatedAt": "2023-04-22T10:55:50.177Z",
     "__v": 0
@@ -173,7 +173,7 @@ To run this project on your local machine, follow these steps:
     "_id": "6158c8230a5f6ecb12345679",
     "taskName": "Task 1",
     "taskDescription": "Do something",
-    "taskStatus": "pending",
+    "taskStatus": "in progress",
     "createdAt": "2023-04-22T10:55:50.177Z",
     "updatedAt": "2023-04-22T10:55:50.177Z"
   }
